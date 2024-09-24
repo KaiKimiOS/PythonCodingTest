@@ -1,0 +1,1 @@
+{"name":"Local: 칸토어집합","url":"/Users/kai/Documents/GitHub/PythonCodingTest/칸토어집합.py","tests":[{"id":1727145610652,"input":"0\n1\n3\n2","output":"-\n- -\n- -   - -         - -   - -\n- -   - -"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/kai/Documents/GitHub/PythonCodingTest/칸토어집합.py","group":"local","local":true}
