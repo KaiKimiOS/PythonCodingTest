@@ -1,0 +1,1 @@
+{"name":"Local: 숫자야구","url":"/Users/kai/Documents/GitHub/PythonCodingTest/숫자야구.py","tests":[{"id":1727425944303,"input":"4\n123 1 1\n356 1 0\n327 2 0\n489 0 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/kai/Documents/GitHub/PythonCodingTest/숫자야구.py","group":"local","local":true}
