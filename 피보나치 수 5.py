@@ -35,6 +35,6 @@ def fibo2(x):
     return arr[x]
 
 
-print(fibo(n))
+fibo(n)
 # print(fibo2(n))
 print(cnt)

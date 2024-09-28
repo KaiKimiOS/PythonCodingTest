@@ -1,0 +1,1 @@
+{"name":"Local: 행운의 문자열","url":"/Users/kai/Documents/GitHub/PythonCodingTest/행운의 문자열.py","tests":[{"id":1727453660379,"input":"aabbbaa","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/kai/Documents/GitHub/PythonCodingTest/행운의 문자열.py","group":"local","local":true}
