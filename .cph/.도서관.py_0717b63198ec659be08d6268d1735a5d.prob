@@ -1,0 +1,1 @@
+{"name":"Local: 도서관","url":"/Users/kai/Documents/GitHub/PythonCodingTest/도서관.py","tests":[{"id":1727515033525,"input":"7 2\n-37 2 -6 -39 -29 11 -28","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/kai/Documents/GitHub/PythonCodingTest/도서관.py","group":"local","local":true}
