@@ -1,0 +1,1 @@
+{"name":"Local: 구간합구하기4","url":"/Users/kai/Documents/GitHub/PythonCodingTest/구간합구하기4.py","tests":[{"id":1727713020606,"input":"5 3\n5 4 3 2 1\n1 3\n2 4\n5 5","output":"12\n9\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/kai/Documents/GitHub/PythonCodingTest/구간합구하기4.py","group":"local","local":true}

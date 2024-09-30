@@ -1,0 +1,1 @@
+{"name":"Local: RGB거리","url":"/Users/kai/Documents/GitHub/PythonCodingTest/RGB거리.py","tests":[{"id":1727708602539,"input":"3\n26 40 83\n49 60 57\n13 89 99","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/kai/Documents/GitHub/PythonCodingTest/RGB거리.py","group":"local","local":true}

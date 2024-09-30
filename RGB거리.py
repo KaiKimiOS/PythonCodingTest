@@ -1,15 +1,18 @@
-N = 6
-f = [0] * (N + 1)  # DP Table
+N = int(input())
+arr = [[0,0,0]]
+arr += [list(map(int, input().split())) for _ in range(N)]
 
-# 1 ≤ i ≤ 4 인 경우 (예외처리)
-f[1] = 1
-f[2] = 2
-f[3] = 1
-f[4] = 1
+dp = [[-1,-1,-1] for _ in range(N+1)]
 
-# 5 ≤ i ≤ N 인 경우 (반복문 이용)
-for i in range(5, N + 1):
-    f[i] = min(f[i - 1], f[i - 3], f[i - 4]) + 1
+
+dp[1][0] = arr[1][0]
+dp[1][1] = arr[1][1]
+dp[1][2] = arr[1][2]
+
+for i in range(2,N+1):
+    dp[i][0] =  arr[i][0] +  min(dp[i-1][1], dp[i-1][2])
+    dp[i][1] =  arr[i][1] +  min(dp[i-1][0], dp[i-1][2])
+    dp[i][2] =  arr[i][2] +  min(dp[i-1][0], dp[i-1][1])
     
-
-print(f[N])
+print(dp)
+print(min(dp[N][0], dp[N][1], dp[N][2]))
