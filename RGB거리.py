@@ -14,5 +14,10 @@ for i in range(2,N+1):
     dp[i][1] =  arr[i][1] +  min(dp[i-1][0], dp[i-1][2])
     dp[i][2] =  arr[i][2] +  min(dp[i-1][0], dp[i-1][1])
     
-print(dp)
+
+print(min(dp[N]))
 print(min(dp[N][0], dp[N][1], dp[N][2]))
+[[-1, -1, -1], 
+ [26, 40, 83], 
+ [89, 86, 83], 
+ [96, 172, 185]]
